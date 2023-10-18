@@ -6,26 +6,46 @@
     <link rel="stylesheet" href="sivustyle.css">
 </head>
 <body>
-    <h1>Huonekasvit</h1>
-    <p class="fancy-teksti">Kasveja, joita usein pidetään sisätiloissa huonekasveina, on useita satoja jollei tuhansia lajeja.</p>
-	
-	<div id="juupajaapa">
-	<h2>Kasvien hoito</h2>
-	<p>Yleisimmät huonekasvit ovat alunperin trooppisista olosuhteista, kuten Etelä-Amerikasta, Afrikasta tai Kaakkois-Aasiasta.</p>
-	<p>Tämä tulisi huomioida kasvien hoidossa erityisesti Suomessa, jossa kasvien luonnolliset olosuhteet eivät toteudu.</p>
     
-	<p>
-	<a href="https://getbusygardening.com/tropical-houseplant-care/">Trooppisten kasvien hoidosta</a>
-	</p>
-	<p>
-	<a href="https://www.jardineriaon.com/fi/plantas-tropicales.html">Hoidosta suomeksi</a>
-	</p>
+	<header>
+	<h1>Huonekasvit</h1>
+	</header>
+	<section class="johdatus">
+    <p class="fancy-teksti">Kasveja, joita usein pidetään sisätiloissa huonekasveina, on useita satoja jollei tuhansia lajeja.</p>
+	</section>
+	<nav class="main-nav">
+	<ol>
+	<li><a href="index.html">Kotisivu</a></li>
+	</ol>
+	</nav>
+	<main>
+		<article>
+		<div id="juupajaapa">
+		<h2>Kasvien hoito</h2>
+		<p>Yleisimmät huonekasvit ovat alunperin trooppisista olosuhteista, kuten Etelä-Amerikasta, Afrikasta tai Kaakkois-Aasiasta.</p>
+		<p>Tämä tulisi huomioida kasvien hoidossa erityisesti Suomessa, jossa kasvien luonnolliset olosuhteet eivät toteudu.</p>
+		
+		<p><a href="https://getbusygardening.com/tropical-houseplant-care/">Trooppisten kasvien hoidosta</a></p>
+		<p><a href="https://www.jardineriaon.com/fi/plantas-tropicales.html">Hoidosta suomeksi</a></p>
+		
+		<aside>
+		<h4>Trooppisia kasvisukuja</h4>
+		<ol>
+		<li>Monstera</li>
+		<li>Philodendron</li>
+		<li>Calathea</li>
+		<li>Alocasia</li>
+		<li>Anthurium</li>
+		</ol>
+		</aside>
+		
+		<img src="kastelu.jpg" style="float: left; width: 20%; margin-right: 1%; margin-bottom: 0.5em;">
+		<img src="tropics.png" style="float: left; width: 35%; margin-right: 1%; margin-bottom: 0.5em;">
+		<p style="clear: both;">
+		</div>
+	</article>
 	
-	<img src="kastelu.jpg" style="float: left; width: 20%; margin-right: 1%; margin-bottom: 0.5em;">
-	<img src="tropics.png" style="float: left; width: 35%; margin-right: 1%; margin-bottom: 0.5em;">
-	<p style="clear: both;">
-	</div>
-	
+	<article>
 	<div>
 	<h2>Kasvien hyödyt kotona</h2>
 	<p>Kotona kasvien vihreys piristää ihmisiä ja tuo luontoa sisälle kotiin.</p>
@@ -35,9 +55,13 @@
 	<a href="https://hulluna.fi/huonekasvien-hyodyt-ihmiselle/">Huonekasvien hyötyjä</a>
 	</p>
 	
-	<img src="kasvu.jpg"
-		width="60%">
+	<figure>
+		<img src="kasvu.jpg"
+			width="60%">
+		<figcaption>Pikselikasvi kasvussa</figcaption>
+	</figure>
 	</div>
+	</article>
 	
 	<ul>
 	<li>Yksi kasvi</li>
@@ -45,7 +69,20 @@
 	<li>Kolme kasvi</li>
     </ul>
 	
-	<a href="index.html">Takaisin</a>
+	<section class="syyt">
+	<p>Syitä käyttää semanttisia elementtejä</p>
+	<ol>
+	<li>Sivun tyylittely.</li>
+	<li>Hakukoneet ja selain saavat enemmän informaatiota sivun sisällöstä.</li>
+	<li>Käyttäjäystävällisyys ja esteettömyys, mm. ruudunlukuohjelma saa tietoa sivun struktuurista ja voi lukea sivun osioita selkeämmin.</li>
+	</ol>
+	</section>
+	
+	</main>
+	
+	<footer>
+		<p>Alisa Taskila NDV223SN</p>
+	</footer>
 	
 </body>
 </html> 
